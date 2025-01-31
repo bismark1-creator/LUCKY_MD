@@ -23,7 +23,7 @@ module.exports = { session: process.env.SESSION_ID ||
     HEROKU_APY_KEY : process.env.HEROKU_APY_KEY ,
     WARN_COUNT : process.env.WARN_COUNT || '5' ,
     ETAT : process.env.PRESENCE || '',
-    CHATBOT : process.env.PM_CHATBOT || 'no',
+    CHATBOT : process.env.PM_CHATBOT || 'yes',
     DP : process.env.STARTING_BOT_MESSAGE || "yes",
     ADM : process.env.ANTI_DELETE_MESSAGE || 'no',
     ANTICALL : process.env.ANTICALL || 'yes',
